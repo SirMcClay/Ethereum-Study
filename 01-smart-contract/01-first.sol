@@ -11,7 +11,9 @@ contract Inbox {
         message = newMessage;
     }
     
-    function getMessage() public view returns (string) {
-        return message;
-    }
+    // message variable just give us a get method to look at her content
+    // without need this getMessage function
+    // function getMessage() public view returns (string) {
+    //     return message;
+    // }
 }
